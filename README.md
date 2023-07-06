@@ -1,34 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Blog de Juegos de Mesa
 
-## Getting Started
+Este es un proyecto de un blog desarrollado con Next.js 13, Tailwind CSS, TypeScript y MDX. El objetivo de este proyecto es practicar el uso de estas tecnologías y crear una página estática desde el servidor utilizando la función `generateStaticParams` de Next.js.
 
-First, run the development server:
+## Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Muestra diversas entradas relacionadas con juegos de mesa como D&D 5ed, Pathfinder y Vampiro: La Mascarada.
+- Cada entrada contiene un título, descripción y fecha.
+- Las entradas están escritas en formato MDX, lo que permite utilizar componentes React en el contenido.
+- Utiliza Tailwind CSS para el diseño y la estilización de los componentes.
+- El proyecto está desarrollado en TypeScript, lo que brinda una mayor seguridad y escalabilidad al código.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Instrucciones de uso
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clona este repositorio: `git clone <URL_DEL_REPOSITORIO>`
+2. Instala las dependencias: `npm install`
+3. Ejecuta el proyecto en tu entorno de desarrollo: `npm run dev`
+4. Navega a `http://localhost:3000` para ver el blog en funcionamiento.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Estructura del proyecto
 
-## Learn More
+- `src/app/page/`: Contiene las páginas principales del blog, como la página de inicio y la página de cada entrada.
+- `src/app/components/`: Aquí se encuentran los componentes reutilizables utilizados en el proyecto.
+- `posts/`: Contiene los archivos de datos con las entradas del blog en formato MDX.
+- `src/app/assets/`: Carpeta para los archivos estáticos, como imágenes.
 
-To learn more about Next.js, take a look at the following resources:
+## Contribuir
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+¡Las contribuciones son bienvenidas! Si tienes alguna idea para mejorar este proyecto, siéntete libre de hacer un fork del repositorio, implementar tus cambios y enviar un pull request.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Licencia
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este proyecto está bajo la Licencia MIT. Puedes encontrar más información en el archivo `LICENSE`.
